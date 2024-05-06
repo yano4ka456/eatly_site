@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/menu-map.css">
+</head>
+<body>
+    <header class="fixed-container">
+        <div class="head-box">
+            <img src="assets/img/Home/logo.png" alt="#" class="head-logo">
+            <nav>
+                <a href="menu.html" class="head-link">Menu</a>
+                <a href="blog.html" class="head-link">Blog</a>
+                <a href="pricing.html" class="head-link">Pricing</a>
+                <a href="contact.html" class="head-link">Contact</a>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('nav').classList.toggle('open');
+        })
+    </script> 
+        </div>
+        <div class="button-box">
+            <p class="login">Login</p>
+            <button class="signup">SignUp</button>
+        </div>
+    </header>
+    <div class="head-hr fixed-container"></div>
+    <main>
+        <section class="fixed-container main-img"><br>
+            <div class="main-box">
+                <div class="author-box">
+                    <img src="assets/img/Menu-Map/Image.png" alt="#" class="author-img">
+                    <div class="name-box">
+                        <p class="name-title">David Smith</p>
+                        <p class="name-text">Food Rider</p>
+                    </div>
+                </div>
+                <div class="dop-box">
+                    <img src="assets/img/Menu-Map/l.png" alt="#">
+                    <div class="box-text">
+                        <div class="text-box">
+                            <p class="text-title">Your Address</p>
+                            <p class="text-text">Horizenal Road Stree 1178 California, USA</p>
+                        </div>
+                        <div class="text-box">
+                            <p class="text-title">Delivery Time</p>
+                            <p class="text-text">15 Minutes</p>
+                        </div>
+                    </div>
+                    <button class="main-button">Rending</button>
+                </div>
+            </div>
+        </section>
+        <section class="fixed-container secimg">
+            <div class="second-img"></div>
+        </section>
+        <section class="fixed-container">
+            <div class="form-box">
+                <div class="form-container">
+                    <div class="form">
+                        <div class="head-form">
+                            <p class="form-title">GET 50%</p>
+                            <div class="input"><p>Enter Your</p>Email Address <button class="submit-button">SUBSCRIBE</button></div>
+                        </div>
+                    </div>
+                    <img src="assets/img/Home/Food_Image.png" alt="#" class="form-image">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="fixed-container">
+            <div class="on-lin">
+                <div class="nav-box fot-box">
+                    <img src="assets/img/Home/logo.png" alt="#">
+                    <div class="nav nav-fot">
+                        <a href="" class="foot-link">Blog</a>
+                        <a href="" class="foot-link">Pricing</a>
+                        <a href="" class="foot-link">About Us</a>
+                        <a href="" class="foot-link">Contact</a>
+                    </div>
+                </div>
+                <div class="head-hr nyn"></div>
+                <div class="social-box">
+                    <p class="copy nyn">© 2023 EATLY All Rights Reserved.</p>
+                    <div class="social">
+                        <img src="assets/img/Home/inst.png" alt="#" class="social-icon">
+                        <img src="assets/img/Home/in.png" alt="#" class="social-icon">
+                        <img src="assets/img/Home/facebook.png" alt="#" class="social-icon">
+                        <img src="assets/img/Home/twittet.png" alt="#" class="social-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="head-hr non"></div>
+            <div class="social-box non">
+                <p class="copy non">© 2023 EATLY All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
